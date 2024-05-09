@@ -1,28 +1,30 @@
 import {
-  ChatBubbleBottomCenterTextIcon,
+  PhoneIcon,
+  MapPinIcon,
+  EnvelopeIcon
 } from "@heroicons/react/24/solid";
 
 export const featuresData = [
   {
     color: "gray",
-    title: "Awarded Agency",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Phone Number",
+    icon: PhoneIcon,
     description:
-      "Divide details about your product or agency work into parts. A paragraph describing a feature will be enough.",
+      "713-307-2235",
   },
   {
     color: "gray",
-    title: "Free Revisions",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Located At",
+    icon: MapPinIcon,
     description:
-      "Keep you user engaged by providing meaningful information. Remember that by this time, the user is curious.",
+      "6040 Brittmore Rd Suite H\nHouston TX, 77041",
   },
   {
     color: "gray",
-    title: "Verified Company",
-    icon: ChatBubbleBottomCenterTextIcon,
+    title: "Email",
+    icon: EnvelopeIcon,
     description:
-      "Write a few lines about each one. A paragraph describing a feature will be enough. Keep you user engaged!",
+      "dbcmachine@gmail.com",
   },
 ];
 
