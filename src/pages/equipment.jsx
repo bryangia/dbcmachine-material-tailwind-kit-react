@@ -22,7 +22,7 @@ export const Equipment = () => {
               </div>
           </div>
           <div className="mb-10 py-6 flex">
-            <div className="flex w-full flex-col items-start lg:w-3/4">
+            <div className="flex w-full flex-col items-start">
               <Typography className="mb-6 font-normal text-blue-gray-500">
               At DBC Machine INC, we believe in providing the highest quality to customers. Since 2010, 
               we’ve part of the backbone of Houston’s oil and gas sector, providing top-tier CNC machining services. 

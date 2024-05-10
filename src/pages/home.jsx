@@ -102,31 +102,31 @@ export function Home() {
             These photos all come from directly inside our workplace!
           </PageTitle>
           <Carousel className="rounded-xl">
-          <img
-            src="/img/model.jpg"
-            alt="image 1"
-            className="h-full w-full object-cover"
-          />
-          <img
-            src="/img/mazak.jpg"
-            alt="image 2"
-            className="h-full w-full object-cover"
-          />
-          <img
-            src="/img/parts.jpg"
-            alt="image 2"
-            className="h-full w-full object-cover"
-          />
-          <img
-            src="/img/mill.jpg"
-            alt="image 2"
-            className="h-full w-full object-cover"
-          />
-          <img
-            src="/img/product.jpg"
-            alt="image 2"
-            className="h-full w-full object-cover"
-          />
+            <img
+              src="/img/model.jpg"
+              alt="image 1"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="/img/mazak.jpg"
+              alt="image 2"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="/img/parts.jpg"
+              alt="image 2"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="/img/mill.jpg"
+              alt="image 2"
+              className="h-full w-full object-cover"
+            />
+            <img
+              src="/img/product.jpg"
+              alt="image 2"
+              className="h-full w-full object-cover"
+            />
           </Carousel>
         </div>
       </section>
