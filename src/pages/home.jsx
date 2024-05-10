@@ -101,7 +101,7 @@ export function Home() {
           <PageTitle section="Photo gallery" heading="See how we work!">
             These photos all come from directly inside our workplace!
           </PageTitle>
-          <Carousel className="rounded-xl">
+          <Carousel className="rounded-xl mx-auto lg:w-11/12">
           <img
             src="/img/model.jpg"
             alt="image 1"
