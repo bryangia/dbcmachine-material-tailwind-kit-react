@@ -10,7 +10,7 @@ export const featuresData = [
     title: "Phone Number",
     icon: PhoneIcon,
     description:
-      "713-307-2235",
+      "Tel: 713-281-1412  \n Cell: 713-307-2235",
   },
   {
     color: "gray",
@@ -24,7 +24,7 @@ export const featuresData = [
     title: "Email",
     icon: EnvelopeIcon,
     description:
-      "dbcmachine@gmail.com",
+      "dinh.nguyen@dbcmachines.com",
   },
 ];
 
