@@ -1,7 +1,7 @@
 import { Typography } from "@material-tailwind/react";
 import { Footer } from "@/widgets/layout";
 
-export const About = () => {
+export const Equipment = () => {
     return (<>
     <section className="relative block h-[50vh]">
       <div className="bg-profile-background absolute top-0 h-full w-full bg-[url('/img/background-3.jpg')] bg-cover bg-center scale-105" />
@@ -17,12 +17,12 @@ export const About = () => {
                   className="mb-3 font-bold"
                   color="blue-gray"
                 >
-                  About us
+                  Equipment
                 </Typography>
               </div>
           </div>
           <div className="mb-10 py-6 flex">
-            <div className="flex w-full flex-col items-start lg:w-3/4">
+            <div className="flex w-full flex-col items-start">
               <Typography className="mb-6 font-normal text-blue-gray-500">
               At DBC Machine INC, we believe in providing the highest quality to customers. Since 2010, 
               we’ve part of the backbone of Houston’s oil and gas sector, providing top-tier CNC machining services. 
