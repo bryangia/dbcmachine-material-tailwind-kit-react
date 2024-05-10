@@ -4,11 +4,6 @@ import {
   CardBody,
   CardHeader,
   Typography,
-  Button,
-  IconButton,
-  Input,
-  Textarea,
-  Checkbox,
 } from "@material-tailwind/react";
 import { UsersIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";

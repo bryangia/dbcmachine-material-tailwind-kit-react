@@ -1,4 +1,4 @@
-import { Avatar, Typography, Button } from "@material-tailwind/react";
+import { Typography } from "@material-tailwind/react";
 import { Footer } from "@/widgets/layout";
 
 export const About = () => {
