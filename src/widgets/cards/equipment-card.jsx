@@ -5,15 +5,17 @@ import {
     Typography,
   } from "@material-tailwind/react";
 
-export function EquipmentCard(props) {
+export function EquipmentCard({title, description }) {
     return (
       <Card className="mt-6 w-96">
         <CardBody>
           <Typography variant="h5" color="blue-gray" className="mb-2">
-            {props.title}
+            {title}
           </Typography>
           <Typography>
-            {props.description}
+            {description.split('\n').map((lineText, lineIndex) => {
+                return(<span key={`lineText-${lineIndex}`}>{lineText}</span>)
+              })}
           </Typography>
         </CardBody>
       </Card>

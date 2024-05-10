@@ -1,7 +1,24 @@
 import { Typography } from "@material-tailwind/react";
 import { Footer } from "@/widgets/layout";
 import { EquipmentCard } from "@/widgets/cards";
+import {equipmentData} from "@/data";
 
+const EquipmentCards = () => {
+  return (
+    <div className="flex flex-wrap justify-around">
+      {equipmentData.map(({title, description}) => {
+        return(
+        <div key={`EquipmentCard-${title}`}className="flex flex-wrap justify-stretch py-4">
+          <EquipmentCard 
+            title={title} 
+            description={description}/>
+        </div>
+        )
+        })
+      }
+    </div>
+)
+}
 
 export const Equipment = () => {
     return (<>
@@ -23,12 +40,10 @@ export const Equipment = () => {
                 </Typography>
               </div>
           </div>
+          <EquipmentCards/>
           <div className="flex justify-row py-4 pt-8 lg:pt-8">
-                <EquipmentCard title='test' description='test'/>
-          </div>
-          <div className="flex justify-row py-4 pt-8 lg:pt-8">
-                <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="/img/pump.jpg"/>
-                <img className="w-3/4 h-96 w-full rounded-lg" alt="Card Image" src="/img/refinery.jpg"/>
+                <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="/img/mazak.jpg"/>
+                <img className="w-3/4 h-96 w-full rounded-lg" alt="Card Image" src="/img/mill.jpg"/>
               </div>
         </div>
       </div>

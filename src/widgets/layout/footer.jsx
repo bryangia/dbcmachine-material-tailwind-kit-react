@@ -14,7 +14,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
             </Typography>
             <Typography className="font-normal text-blue-gray-500 lg:w-2/5">
               {description.split('\n').map((lineText, lineIndex) => {
-                return(<p key={`lineText-${lineIndex}`}>{lineText}</p>)
+                return(<span key={`lineText-${lineIndex}`}>{lineText}</span>)
               })}
             </Typography>
             <div className="mx-auto mt-6 mb-8 flex justify-center gap-2 md:mb-0 lg:justify-start">

@@ -22,7 +22,9 @@ export function FeatureCard({ color, icon, title, description }) {
           {title}
         </Typography>
         <Typography className="font-normal text-blue-gray-600">
-          {description}
+          {description.split('\n').map((lineText, lineIndex) => {
+                return(<span key={`lineText-${lineIndex}`}>{lineText}</span>)
+              })}
         </Typography>
       </CardBody>
     </Card>
