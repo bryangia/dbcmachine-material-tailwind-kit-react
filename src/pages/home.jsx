@@ -65,7 +65,7 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Why you should choose us
+                Why choose us
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
                 We are commited to providing quality products that meet and exceed customers' expectations.
