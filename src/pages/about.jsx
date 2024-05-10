@@ -29,7 +29,21 @@ export const About = () => {
               Our commitment to excellence, reliability, and innovation has made us a trusted partner for major energy players.
               </Typography>
               <Typography className="mb-6 font-normal text-blue-gray-500">
-              Our employees have over 20+ years of experience in machining and are dilligent to produce the highest quality products.
+              Our team has over 20+ years of experience in machining and are dilligent to produce the highest quality products.
+              </Typography>
+              <div className="flex flex-col lg:flex-row justify-between">
+                <div className="flex justify-start py-4 pt-8 lg:pt-8">
+                  <Typography
+                    variant="h3"
+                    className="mb-3 font-bold"
+                    color="blue-gray"
+                  >
+                    Industry
+                  </Typography>
+                </div>
+              </div>
+              <Typography className="mb-6 font-normal text-blue-gray-500">
+                At DBC Machine INC we serve in the oil and gas industry. We have served many large oilwell companies in the Houston area.
               </Typography>
               <div className="flex justify-row py-4 pt-8 lg:pt-8">
                 <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="/img/pump.jpg"/>
