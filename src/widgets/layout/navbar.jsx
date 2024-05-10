@@ -62,7 +62,7 @@ export function Navbar({ brandName, routes, action }) {
 
   return (
     <MTNavbar color="transparent" className="p-3">
-      <div className="container mx-auto flex items-center justify-between text-white">
+      <div className="container mx-auto flex items-center justify-center text-white">
         <Link to="/">
           <Typography className="mr-4 ml-2 cursor-pointer py-1.5 font-bold">
             {brandName}
@@ -104,16 +104,9 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: "DBC Machine INC",
+  brandName: "",
   action: (
-    <a
-      href="https://www.creative-tim.com/product/material-tailwind-kit-react"
-      target="_blank"
-    >
-      <Button variant="gradient" size="sm" fullWidth>
-        free download
-      </Button>
-    </a>
+    <></>
   ),
 };
 
