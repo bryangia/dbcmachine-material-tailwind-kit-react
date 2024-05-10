@@ -66,7 +66,7 @@ export function Home() {
                 We are commited to providing quality products that meet and exceed customers' expectations.
                 <br />
                 <br />
-                With our quality policy, we strive for quick response and delivery time while manitaining quality.
+                DBC Machine INC operates 7 days a week for 24 hour turnaround availability so your order can be fulfilled as soon as possible.
               </Typography>
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
