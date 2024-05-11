@@ -14,7 +14,7 @@ export function EquipmentCard({title, description }) {
           </Typography>
           <Typography>
             {description.split('\n').map((lineText, lineIndex) => {
-                return(<span key={`lineText-${lineIndex}`}>{lineText}</span>)
+                return(<span key={`lineText-${lineIndex}`}>{lineText}<br/></span>)
               })}
           </Typography>
         </CardBody>
