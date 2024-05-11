@@ -46,8 +46,8 @@ export const About = () => {
                 At DBC Machine INC we serve in the oil and gas industry. We have served many large oilwell companies in the Houston area.
               </Typography>
               <div className="flex justify-row py-4 pt-8 lg:pt-8">
-                <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="/img/pump.jpg"/>
-                <img className="w-3/4 h-96 w-full rounded-lg" alt="Card Image" src="/img/refinery.jpg"/>
+                <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="./img/pump.jpg"/>
+                <img className="w-3/4 h-96 w-full rounded-lg" alt="Card Image" src="./img/refinery.jpg"/>
               </div>
             </div>
           </div>

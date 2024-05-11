@@ -42,8 +42,8 @@ export const Equipment = () => {
           </div>
           <EquipmentCards/>
           <div className="flex justify-row py-4 pt-8 lg:pt-8">
-                <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="/img/mazak.jpg"/>
-                <img className="w-3/4 h-96 w-full rounded-lg" alt="Card Image" src="/img/mill.jpg"/>
+                <img className="w-3/4 h-96 w-full rounded-lg mr-4" alt="Card Image" src="./img/mazak.jpg"/>
+                <img className="w-3/4 h-96 w-full rounded-lg" alt="Card Image" src="./img/mill.jpg"/>
           </div>
         </div>
       </div>

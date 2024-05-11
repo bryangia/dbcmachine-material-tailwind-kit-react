@@ -74,7 +74,7 @@ export function Home() {
                 <CardHeader floated={false} className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/certified.png"
+                    src="./img/certified.png"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -103,27 +103,27 @@ export function Home() {
           </PageTitle>
           <Carousel className="rounded-xl mx-auto lg:w-11/12">
           <img
-            src="/img/model.jpg"
+            src="./img/model.jpg"
             alt="image 1"
             className="h-full w-full object-cover"
           />
           <img
-            src="/img/mazak.jpg"
+            src="./img/mazak.jpg"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="/img/parts.jpg"
+            src="./img/parts.jpg"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="/img/mill.jpg"
+            src="./img/mill.jpg"
             alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
-            src="/img/product.jpg"
+            src="./img/product.jpg"
             alt="image 2"
             className="h-full w-full object-cover"
           />
