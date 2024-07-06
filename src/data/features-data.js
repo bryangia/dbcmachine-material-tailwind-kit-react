@@ -17,7 +17,7 @@ export const featuresData = [
     title: "Located At",
     icon: MapPinIcon,
     description:
-      "6040 Brittmore Rd Suite H\nHouston TX, 77041",
+      "6040 Brittmoore Rd Suite H\nHouston TX, 77041",
   },
   {
     color: "gray",

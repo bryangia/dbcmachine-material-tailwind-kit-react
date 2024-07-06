@@ -22,7 +22,7 @@ export const equipmentData = [
     {
         title: "Mazak Quick Turn 250",
         description:
-        'Chuck Size 15" \n Max Machining Diameter 24.500" \n Max Bar Work Capacity 4.0" \n Max Machining Length 70.500"',
+        'Chuck Size 12" \n Max Machining Diameter 24.500" \n Max Bar Work Capacity 4.0" \n Max Machining Length 24.500"',
     },
     {
         title: "Mazak Quick Turn Nexus 300",

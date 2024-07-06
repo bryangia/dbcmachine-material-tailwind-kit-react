@@ -103,28 +103,31 @@ export function Home() {
           </PageTitle>
           <Carousel className="rounded-xl mx-auto lg:w-11/12">
           <img
-            src="./img/model.jpg"
-            alt="image 1"
+            src="./img/shop-1.jpg"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="./img/shop-2.jpg"
+            className="h-full w-full object-cover"
+          />
+          <img
+            src="./img/shop-3.jpg"
             className="h-full w-full object-cover"
           />
           <img
             src="./img/mazak.jpg"
-            alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
             src="./img/parts.jpg"
-            alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
             src="./img/mill.jpg"
-            alt="image 2"
             className="h-full w-full object-cover"
           />
           <img
             src="./img/product.jpg"
-            alt="image 2"
             className="h-full w-full object-cover"
           />
           </Carousel>

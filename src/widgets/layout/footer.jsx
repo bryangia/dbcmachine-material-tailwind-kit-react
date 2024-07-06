@@ -83,7 +83,7 @@ export function Footer({ title, description, socials, menus, copyright }) {
 Footer.defaultProps = {
   title: "DBC Machine INC",
   description:
-    "dinh.nguyen@dbcmachines.com \n Tel: 713-281-1412 \n Cell: 713-307-2235 \n 6040 Brittmore Rd Suite H \n Houston TX, 77041",
+    "dinh.nguyen@dbcmachines.com \n Tel: 713-281-1412 \n Cell: 713-307-2235 \n 6040 Brittmoore Rd Suite H \n Houston TX, 77041",
   socials: [
   ],
   menus: [
