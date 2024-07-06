@@ -2,5 +2,7 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/dbcmachi/public_html/
-    - /bin/cp -R index.html $DEPLOYPATH
-    - /bin/cp -R public $DEPLOYPATH
+    - /bin/cp -R dist/index.html $DEPLOYPATH
+    - /bin/cp -R dist/assets $DEPLOYPATH
+    - /bin/cp -R dist/css $DEPLOYPATH
+    - /bin/cp -R dist/img $DEPLOYPATH
